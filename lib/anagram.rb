@@ -11,7 +11,7 @@ class Anagram
     anagrams = []
 
     array.each do |word|
-      if word.chars.sort == self.chars.sort
+      if word.chars.sort == array.chars.sort
         anagrams << word
       end
       anagrams
